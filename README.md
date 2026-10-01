@@ -12,8 +12,8 @@ revivir juegos Flash propios con Ruffle.
 - No se incluyen juegos Flash. Usa archivos que tengas derecho a utilizar. El SWF se limita a
   50 MB, se valida por su cabecera y se procesa localmente; Ruffle no puede acceder a la red,
   abrir enlaces externos ni interactuar con la página.
-- Ruffle 0.6.0 se carga de su CDN oficial solo cuando se abre un SWF. Sin conexión no se puede
-  cargar el reproductor.
+- El paquete oficial de Ruffle 0.6.0 se carga desde unpkg solo cuando se abre un SWF. Sin conexión
+  no se puede cargar el reproductor.
 
 ## Publicación
 
