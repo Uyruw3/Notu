@@ -157,7 +157,7 @@ function loadRuffle() {
     script.crossOrigin = "anonymous";
     script.referrerPolicy = "no-referrer";
     script.onload = resolve;
-    script.onerror = () => reject(new Error("No se pudo cargar Ruffle desde su CDN oficial."));
+    script.onerror = () => reject(new Error("No se pudo cargar el paquete oficial de Ruffle desde unpkg."));
     document.head.append(script);
   }).catch((error) => {
     ruffleScriptPromise = null;
